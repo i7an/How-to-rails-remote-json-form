@@ -76,7 +76,7 @@ Usually there is one page with two or more forms. And it causes pain in ass when
     
       onSuccess: (data) ->
         user = data.user
-        uberObj.add(user) # just for example
+        @uberObj.add(user) # just for example
     
       resourceName: -> 'user'
       
